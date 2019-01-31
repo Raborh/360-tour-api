@@ -1,0 +1,37 @@
+{
+  "name": "360-tour-api",
+  "version": "1.0.0",
+  "description": "API For 360-tour configurator",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raborh/360-tour-api.git"
+  },
+  "keywords": [
+    "360",
+    "360-tour",
+    "api"
+  ],
+  "author": "Mateusz Kowalski, Adrian Andrearczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raborh/360-tour-api/issues"
+  },
+  "homepage": "https://github.com/Raborh/360-tour-api#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jimp": "^0.6.0",
+    "mongoose": "^5.4.8",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
